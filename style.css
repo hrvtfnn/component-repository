@@ -112,3 +112,19 @@ h3 {
   background-color: #c9302c;
   border-color: #ac2925;
 }
+
+/* Additional styles for "Previous, Next" */
+
+.btn-flat {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  border: 1px solid black;
+  border-radius: 0;
+}
+
+.btn-flat:hover {
+  background-color: #000;
+  color: #fff;
+  transition: background-color .15s ease-in-out;
+}
